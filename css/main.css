@@ -1,0 +1,130 @@
+.main {
+  width: 100%;
+  max-width: 1440px;
+  padding: 10px 0px;
+  background: rgb(255, 255, 255);
+  margin: auto;
+}
+.main .main__base {
+  width: 1000px;
+  padding: 50px 0px;
+  margin: auto;
+  position: relative;
+  background: brown;
+}
+.main .main__base .main__base__title {
+  text-align: center;
+  font-size: 28px;
+  color: hsl(233deg, 13%, 49%);
+}
+.main .main__base .main__base__blockBtn {
+  width: 200px;
+  padding: 5px 0px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main .main__base .main__base__blockBtn .btnText {
+  color: hsl(234deg, 14%, 74%);
+}
+.main .main__base .main__base__blockBtn .btnSwitch {
+  width: 45px;
+  padding: 2px;
+  border-radius: 20px;
+  background: hsl(237deg, 63%, 64%);
+}
+.main .main__base .main__base__blockBtn .btnSwitch .btnSwitch__circle {
+  width: 20px;
+  height: 20px;
+  background: hsl(240deg, 78%, 98%);
+  border-radius: 50%;
+}
+.main .main__base .main__base__blockSections {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+.main .main__base .main__base__blockSections .blockSections__bocks {
+  width: 280px;
+  padding: 20px;
+  background: white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+  z-index: 100;
+}
+.main .main__base .main__base__blockSections .blockSections__bocks .blockSections__bocks__title {
+  color: hsl(233deg, 13%, 49%);
+}
+.main .main__base .main__base__blockSections .blockSections__bocks .blockSections__bocks__number {
+  margin: 16px auto;
+  font-size: 60px;
+  color: hsl(232deg, 13%, 33%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main__base .main__base__blockSections .blockSections__bocks .blockSections__bocks__number .iconDolar {
+  font-size: 35px;
+  margin-right: 10px;
+}
+.main .main__base .main__base__blockSections .blockSections__bocks .blockSections__bocks__line {
+  width: 100%;
+  height: 1px;
+  background: hsl(234deg, 14%, 74%);
+}
+.main .main__base .main__base__blockSections .blockSections__bocks .blockSections__storage {
+  margin: 15px 0px;
+  color: hsl(233deg, 13%, 49%);
+  font-size: 12px;
+}
+.main .main__base .main__base__blockSections .blockSections__bocks .blockSections__bocks__button {
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 12px;
+  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 100px;
+}
+.main .main__base .background__top {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/bg-bottom.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.main .main__base .background__bottom {
+  width: 200px;
+  height: 400px;
+  background-image: url(../images/bg-top.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.main .attribution {
+  margin: 5px 0px;
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  color: blue;
+  background: grey;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */

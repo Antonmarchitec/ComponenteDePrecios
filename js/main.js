@@ -27,6 +27,13 @@ const pintarElementos = (data) =>{
     data.forEach(element => {
         //console.log(element)
         base_template.querySelector("#title").textContent = element.state
+        base_template.querySelector("#iconDolar").textContent = element.score
+        base_template.querySelector("#storage").textContent = element.storage
+        base_template.querySelector("#users").textContent = element.user
+        base_template.querySelector("#send").textContent = element.send
+
+
+
 
         let clone = base_template.cloneNode(true)
         base_fragment.appendChild(clone)

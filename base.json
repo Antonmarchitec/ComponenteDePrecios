@@ -1,6 +1,6 @@
 [
     {
-      "color":"rgb(246, 246, 254)",
+      "color":" #f6f6fe ",
       "state": "Basic",
       "score": 199.99,
       "score2": 19.99,
@@ -9,7 +9,7 @@
       "send": " Send up to 3 GB "
     },
     {
-      "color":"rgb(246, 246, 254)",
+      "color":" #696fdd ",
       "state": "Basic",
       "score": 199.99,
       "score2": 24.99,
@@ -18,7 +18,7 @@
       "send": " Send up to 10 GB "
     },
     {
-      "color":"rgb(246, 246, 254)",
+      "color":" #f6f6fe ",
       "state": "Basic",
       "score": 199.99,
       "score2": 39.99,

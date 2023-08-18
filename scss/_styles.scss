@@ -1,4 +1,6 @@
 @import "variables";
+
+
 .main{
     width: 100%;
     max-width: 1440px;
@@ -36,7 +38,7 @@
                 .btnSwitch__circle{ 
                     width: 20px;
                     height: 20px;
-                    background: $VeryLighBlue;
+                    background: $white;
                     border-radius: 50%;
                 }
             }

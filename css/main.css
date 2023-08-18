@@ -36,7 +36,7 @@
 .main .main__base .main__base__blockBtn .btnSwitch .btnSwitch__circle {
   width: 20px;
   height: 20px;
-  background: hsl(240deg, 78%, 98%);
+  background: #f6f6fe;
   border-radius: 50%;
 }
 .main .main__base .main__base__blockSections {

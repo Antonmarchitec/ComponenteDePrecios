@@ -20,9 +20,6 @@ const funcionCargar = async () =>{
         console.log(" Se registro un error ")
     }
 }
-
-
-
 const pintarElementos = (data) =>{
     data.forEach(element => {
         //console.log(element)
@@ -61,6 +58,26 @@ const pintarElementos = (data) =>{
     });
     base__blocks.appendChild(base_fragment)
 
-    //base_template.querySelector("#title").textContent = 
-
 }
+/*
+let buton = document.querySelector("#buton")
+buton.addEventListener("mouseover", function() {
+    buton.style.backgroundColor = "#e74c3c";
+});
+
+buton.addEventListener("mouseout", function() {
+    buton.style.backgroundColor = "#3498db";
+});
+*/
+
+document.addEventListener("click", (e)=>{
+    if(e.target.dataset.btn === "1"){
+        //console.log   ("le diste al numero 1")
+        
+
+    }else if(e.target.dataset.btn === "2"){
+        //console.log("le diste al numero 2")
+    }else if(e.target.dataset.btn === "3"){
+        //console.log("le diste al numero 3")
+    }
+})

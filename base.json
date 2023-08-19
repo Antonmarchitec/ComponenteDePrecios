@@ -2,7 +2,9 @@
     {
       "color_base": "#f6f6fe", 
       "color_text": "#494c5f",
-      "color_btn":"#494c5f",
+      "color_btn":"linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%))",
+      "color_text_btn":"#f6f6fe",
+
       "state": "Basic",
       "score": 199.99,
       "score2": 19.99,
@@ -15,8 +17,9 @@
     {
       "color_base": "#696fdd", 
       "color_text": "#f6f6fe",
-      "color_text_btn":"#696fdd",
+      "color_text_btn":"hsl(237, 63%, 64%)",
       "color_btn":"#f6f6fe",
+
       "state": "Professional",
       "score": 249.99,
       "score2": 24.99,
@@ -29,7 +32,9 @@
     {
       "color_base": "#f6f6fe", 
       "color_text": "#494c5f",
-      "color_btn":"#494c5f",
+      "color_btn":"linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%))",
+      "color_text_btn":"#f6f6fe",
+      
       "state": "Master",
       "score": 399.99,
       "score2": 39.99,

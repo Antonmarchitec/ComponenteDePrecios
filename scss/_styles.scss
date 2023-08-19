@@ -12,7 +12,7 @@
         padding: 50px 0px;
         margin: auto;
         position: relative;
-        background: rgb(255, 255, 255);
+        background:$white;
         .main__base__title{
             text-align: center;
             font-size: 28px;
@@ -55,24 +55,26 @@
            
             .blockSections__bocks{
                 width: 280px;
-                padding: 25px;
+                padding: 30px 25px;
                 background:white;
                 text-align: center;
                 border-radius: 5px;
+                box-shadow: 0px 0px 10px $LightGrayishBlue;
                 .blockSections__bocks__title{
                     color:$GrayishBlue;
                 }
 
                 .blockSections__bocks__number{
-                    margin: 16px auto;
-                    font-size: 60px;
-                    color: $DarkGrayishBlue;
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-around;
                     align-items: center;
-                    .iconDolar{
-                        font-size: 35px;
-                        margin-right: 10px;
+                    .number_icon{
+                        font-size: 30px;
+                        color: $DarkGrayishBlue;
+                    }
+                    .number_text{
+                        font-size: 60px;
+                        color: $DarkGrayishBlue;
                     }
                 }
                 

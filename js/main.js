@@ -49,6 +49,9 @@ const pintarElementos = (data) =>{
         base_template.querySelector("#block").style.width = element.width 
         base_template.querySelector("#block").style.height = element.height 
 
+        base_template.querySelector("#icon").style.color = element.color_dolar 
+
+
 
 
         let clone = base_template.cloneNode(true)

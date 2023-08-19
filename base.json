@@ -4,6 +4,7 @@
       "color_text": "#494c5f",
       "color_btn":"linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%)",
       "color_text_btn":"#f6f6fe",
+      "color_dolar":"#494c5f",
 
       "state": "Basic",
       "score": 199.99,
@@ -25,6 +26,7 @@
       "color_text": "#f6f6fe",
       "color_text_btn":"hsl(237, 63%, 64%)",
       "color_btn":"#f6f6fe",
+      "color_dolar":"#f6f6fe",
 
       "state": "Professional",
       "score": 249.99,
@@ -47,6 +49,7 @@
       "color_text": "#494c5f",
       "color_btn":"linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%)",
       "color_text_btn":"#f6f6fe",
+      "color_dolar":"#494c5f",
       
       "state": "Master",
       "score": 399.99,

@@ -12,7 +12,7 @@
         padding: 50px 0px;
         margin: auto;
         position: relative;
-        background: brown;
+        background: rgb(255, 255, 255);
         .main__base__title{
             text-align: center;
             font-size: 28px;
@@ -49,17 +49,16 @@
             width: 100%;
             padding: 10px 0px;
             display: flex;
-            justify-content: center;
+            justify-content:center;
             align-items: center;
             background: transparent;
-            background: rgb(152, 90, 90);
+           
             .blockSections__bocks{
                 width: 280px;
                 padding: 25px;
                 background:white;
                 text-align: center;
                 border-radius: 5px;
-                box-shadow: 0px 0px 10px black;
                 .blockSections__bocks__title{
                     color:$GrayishBlue;
                 }

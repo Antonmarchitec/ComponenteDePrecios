@@ -2,7 +2,7 @@
     {
       "color_base": "#f6f6fe", 
       "color_text": "#494c5f",
-      "color_btn":"linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%))",
+      "color_btn":"linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%)",
       "color_text_btn":"#f6f6fe",
 
       "state": "Basic",
@@ -12,10 +12,16 @@
       "user": " 2 Users Allowed ",
       "send": " Send up to 3 GB ",
 
-      "btn":1 
+      "btn":1,
+
+      "width":"280px",
+      "height":"auto"
+      
     },
+
+
     {
-      "color_base": "#696fdd", 
+      "color_base": "linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%)", 
       "color_text": "#f6f6fe",
       "color_text_btn":"hsl(237, 63%, 64%)",
       "color_btn":"#f6f6fe",
@@ -27,12 +33,19 @@
       "user": " 5 Users Allowed ",
       "send": " Send up to 10 GB ",
 
-      "btn":2 
+      "btn":2,
+
+      "width":"280px",
+      "height":"420px"
+
+      
     },
+
+
     {
       "color_base": "#f6f6fe", 
       "color_text": "#494c5f",
-      "color_btn":"linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%))",
+      "color_btn":"linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%)",
       "color_text_btn":"#f6f6fe",
       
       "state": "Master",
@@ -42,7 +55,10 @@
       "user": " 10 Users Allowed ",
       "send": " Send up to 20 GB ",
 
-      "btn":3 
+      "btn":3,
+
+      "width":"280px",
+      "height":"auto"
     }
   ]
   

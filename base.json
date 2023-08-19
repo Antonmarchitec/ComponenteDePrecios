@@ -16,10 +16,11 @@
       "btn":1,
 
       "width":"280px",
-      "height":"auto"
+      "height":"auto",
+      "padding":"30px 25px"
+
       
     },
-
 
     {
       "color_base": "linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%)", 
@@ -38,8 +39,8 @@
       "btn":2,
 
       "width":"280px",
-      "height":"420px"
-
+      "height":"400px",
+      "padding":"50px 25px"
       
     },
 
@@ -61,7 +62,9 @@
       "btn":3,
 
       "width":"280px",
-      "height":"auto"
+      "height":"auto",
+      "padding":"30px 25px"
+
     }
   ]
   

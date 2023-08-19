@@ -45,11 +45,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: transparent;
+  z-index: 1;
+  position: relative;
 }
 .main .main__base .main__base__blockSections .blockSections__bocks {
   width: 280px;
-  padding: 30px 25px;
   background: white;
   text-align: center;
   border-radius: 5px;

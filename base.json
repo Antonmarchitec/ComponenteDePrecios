@@ -1,8 +1,8 @@
 [
     {
-      "background": "#f6f6fe", 
-      "color": "#494c5f",
-
+      "color_base": "#f6f6fe", 
+      "color_text": "#494c5f",
+      "color_btn":"#494c5f",
       "state": "Basic",
       "score": 199.99,
       "score2": 19.99,
@@ -13,8 +13,10 @@
       "btn":1 
     },
     {
-      "background": "#696fdd", 
-      "color": "#f6f6fe",
+      "color_base": "#696fdd", 
+      "color_text": "#f6f6fe",
+      "color_text_btn":"#696fdd",
+      "color_btn":"#f6f6fe",
       "state": "Professional",
       "score": 249.99,
       "score2": 24.99,
@@ -25,8 +27,9 @@
       "btn":2 
     },
     {
-      "background": "#f6f6fe", 
-      "color": "#494c5f",
+      "color_base": "#f6f6fe", 
+      "color_text": "#494c5f",
+      "color_btn":"#494c5f",
       "state": "Master",
       "score": 399.99,
       "score2": 39.99,

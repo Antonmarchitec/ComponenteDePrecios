@@ -34,13 +34,14 @@ const pintarElementos = (data) =>{
         base_template.querySelector("#buton").dataset.btn = element.btn
 
         //styles bloque 2
-        base_template.querySelector("#block").style.background = element.background 
-        base_template.querySelector("#title").style.color = element.color
-        base_template.querySelector("#number").style.color = element.color 
-        base_template.querySelector("#storage").style.color = element.color 
-        base_template.querySelector("#users").style.color = element.color 
-        base_template.querySelector("#send").style.color = element.color 
-        base_template.querySelector("#buton").style.background = element.color
+        base_template.querySelector("#block").style.background = element.color_base 
+        base_template.querySelector("#title").style.color = element.color_text
+        base_template.querySelector("#number").style.color = element.color_text 
+        base_template.querySelector("#storage").style.color = element.color_text 
+        base_template.querySelector("#users").style.color = element.color_text 
+        base_template.querySelector("#send").style.color = element.color_text 
+        base_template.querySelector("#buton").style.background = element.color_btn 
+        base_template.querySelector("#buton").style.color = element.color_text_btn 
 
 
 

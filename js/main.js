@@ -18,10 +18,10 @@ const funcionCargar = async () =>{
         pintarElementos(data)
 
 
-        let elementBtn = document.getElementById("buton")
-        console.log(elementBtn)
+        /*let elementBtn = document.getElementById("buton")
+        console.log(elementBtn)*/
 
-        elementBtn.addEventListener("mouseover", () =>{
+        /*elementBtn.addEventListener("mouseover", () =>{
             elementBtn.style.background = "yellow";
             elementBtn.style.color = "black";
             elementBtn.style.transition = "0.2s";
@@ -33,8 +33,10 @@ const funcionCargar = async () =>{
             elementBtn.style.color = "black";
             elementBtn.style.transition = "0.2s";
             console.log("desaparecer")
-        })
+        })*/
 
+
+       
     
 
     }catch (error){
@@ -77,11 +79,26 @@ const pintarElementos = (data) =>{
         base_fragment.appendChild(clone)
     
         
+         ////////
+         document.addEventListener("mouseover", (e)=>{
+            if(e.target.dataset.btn === "1"){
+                /*elementBtn.style.background = "green";
+                elementBtn.style.color = "black";
+                elementBtn.style.transition = "0.2s";*/
+                console.log("le diste al numero 1")
+            }else if(e.target.dataset.btn === "2"){
+                console.log("le diste al numero 2")
+            }else if(e.target.dataset.btn === "3"){
+                console.log("le diste al numero 3")
+            }
+        })
         
     });
     base__blocks.appendChild(base_fragment)
 
 }
+
+
 
 
 
@@ -101,15 +118,5 @@ buton.addEventListener("mouseout", function() {
 */
 
 /*
-document.addEventListener("click", (e)=>{
-    if(e.target.dataset.btn === "1"){
-        let pushBtn = element.col
-        console.log(pushBtn)
-        //base_template.querySelector("#buton").style.background = element.col
-    }else if(e.target.dataset.btn === "2"){
-        console.log("le diste al numero 2")
-    }else if(e.target.dataset.btn === "3"){
-        console.log("le diste al numero 3")
-    }
-})
+
 */

@@ -95,11 +95,13 @@
                     width: 100%;
                     padding: 10px 0px;
                     font-size: 12px;
-                    background: linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
                     border: none;
                     border-radius: 5px;
-                    color: white;
                     font-weight: 100px;
+                    cursor: pointer;
+                    //ESTILOS CAMBIADOS DESDE JS/JSON
+                    background: linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+                    color: white;
                 }
 
             }

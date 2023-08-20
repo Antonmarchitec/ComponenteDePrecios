@@ -3,8 +3,10 @@ let base_template = document.querySelector("#base_template").content
 let base_fragment = document.createDocumentFragment()
 
 
+
 document.addEventListener("DOMContentLoaded", () =>{
     funcionCargar()
+    
 })
 
 
@@ -16,10 +18,31 @@ const funcionCargar = async () =>{
         pintarElementos(data)
 
 
+        let elementBtn = document.getElementById("buton")
+        console.log(elementBtn)
+
+        elementBtn.addEventListener("mouseover", () =>{
+            elementBtn.style.background = "yellow";
+            elementBtn.style.color = "black";
+            elementBtn.style.transition = "0.2s";
+            console.log("mostrar")
+        })
+
+        elementBtn.addEventListener("mouseout", () =>{
+            elementBtn.style.background = "red";
+            elementBtn.style.color = "black";
+            elementBtn.style.transition = "0.2s";
+            console.log("desaparecer")
+        })
+
+    
+
     }catch (error){
         console.log(" Se registro un error ")
     }
 }
+
+
 const pintarElementos = (data) =>{
     data.forEach(element => {
         //console.log(element)
@@ -40,7 +63,7 @@ const pintarElementos = (data) =>{
 
         base_template.querySelector("#buton").dataset.btn = element.btn
         base_template.querySelector("#buton").style.background = element.color_btn 
-        base_template.querySelector("#buton").style.color = element.color_text_btn   
+        base_template.querySelector("#buton").style.color = element.color_text_btn
 
         base_template.querySelector("#block").style.background = element.color_base 
         base_template.querySelector("#block").style.width = element.width 
@@ -50,15 +73,20 @@ const pintarElementos = (data) =>{
 
         base_template.querySelector("#icon").style.color = element.color_dolar 
 
-
-
-
         let clone = base_template.cloneNode(true)
         base_fragment.appendChild(clone)
+    
+        
+        
     });
     base__blocks.appendChild(base_fragment)
 
 }
+
+
+
+
+
 /*
 let buton = document.querySelector("#buton")
 buton.addEventListener("mouseover", function() {
@@ -68,16 +96,20 @@ buton.addEventListener("mouseover", function() {
 buton.addEventListener("mouseout", function() {
     buton.style.backgroundColor = "#3498db";
 });
+
+
 */
 
+/*
 document.addEventListener("click", (e)=>{
     if(e.target.dataset.btn === "1"){
-        //console.log   ("le diste al numero 1")
-        
-
+        let pushBtn = element.col
+        console.log(pushBtn)
+        //base_template.querySelector("#buton").style.background = element.col
     }else if(e.target.dataset.btn === "2"){
-        //console.log("le diste al numero 2")
+        console.log("le diste al numero 2")
     }else if(e.target.dataset.btn === "3"){
-        //console.log("le diste al numero 3")
+        console.log("le diste al numero 3")
     }
 })
+*/

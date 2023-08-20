@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Prueba</title>
+</head>
+
+<style>
+    .btn{
+        width: 200px;
+        padding: 10px 0px;
+        background: rgb(46, 46, 99);
+        color: white;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    <div class="conteiner">
+        <button class="btn" id="btn"> Ingresar </button>
+    </div>
+
+
+
+    <script>
+        
+        
+
+        const mouseOverFunction = () =>{
+            document.getElementById("btn").style.background = "yellow";
+            document.getElementById("btn").style.color = "black";
+            document.getElementById("btn").style.transition = "0.2s";
+
+
+        }
+
+        const mouseOutFunction = () =>{
+            document.getElementById("btn").style.background = "blue";
+            document.getElementById("btn").style.color = "black";
+            document.getElementById("btn").style.transition = "0.2s";
+
+        }
+
+
+
+        let btnHt = document.getElementById("btn")
+        btnHt.addEventListener("mouseover", ()=>{
+            mouseOverFunction()
+        })
+
+        btnHt.addEventListener("mouseout", ()=>{
+            mouseOutFunction()
+        })
+        
+
+
+    </script>
+</body>
+</html>

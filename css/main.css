@@ -86,11 +86,12 @@
   width: 100%;
   padding: 10px 0px;
   font-size: 12px;
-  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
   border: none;
   border-radius: 5px;
-  color: white;
   font-weight: 100px;
+  cursor: pointer;
+  background: linear-gradient(hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  color: white;
 }
 .main .main__base .background__top {
   width: 200px;
